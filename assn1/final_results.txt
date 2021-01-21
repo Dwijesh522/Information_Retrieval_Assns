@@ -1,0 +1,7 @@
+-rw-r--r-- 1 dwijesh dwijesh 1.1M Oct 17 21:43 indexfile.dict
+-rw-r--r-- 1 dwijesh dwijesh  35M Oct 17 21:44 indexfile.idx
+
+ndcg_cut_10           	all	0.3347
+set_F_100             	all	0.3426
+
+869.37user 6.41system 14:40.33elapsed 99%CPU (0avgtext+0avgdata 357540maxresident)k

@@ -1,0 +1,50 @@
+VECTOR SPACE RETRIEVAL
+----------------------
+
+  Assumptions:
+  ------------
+    1) stanford-ner.jar exists in present working directory
+    2) english.all.3class.distsim.crf.ser.gz exists in 
+       present working directory
+    
+  ##################  
+  # IMPORTANT NOTE #
+  ##################
+    Do not forget to update path to query file, training docs
+    in the Makefile. They are hard coded for my system. Assumptions
+    have to be satisfied to run program.
+
+  How to run the code:
+  --------------------
+    0) To run the complete pipeline execute the following
+       command on terminal
+       
+       $ make invidx; make vecsearch; make score
+  
+    1) To run invidx_cons.py file execute the following
+       command on terminal
+      
+       $ make invidx
+
+    2) To run vecsearch.py file execute the following
+       command on terminal
+
+       $ make vecsearch
+
+    3) To see nDCG and F1 score execute the following
+       command on terminal
+
+       $ make score
+
+    4) To print indexfile.dict execute the following
+       command on terminal
+
+       $ make printdict
+       
+    5) To compress indexfile.dict and indexfile.idx file
+    
+       $ make compress
+       
+    6) To extract indexfile.dict and indexfile.idx file
+    
+       $ make extract

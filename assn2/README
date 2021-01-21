@@ -1,0 +1,23 @@
+Assumption:
+-----------
+1) Use only compressed files. No need to decompress.
+
+Instructions to run probabilistic model
+---------------------------------------
+
+1) Open the Makefile. Change path to queries, top100 docs and training dataset in line-2.
+2) Last argument represents expansion limit. Modify it as needed.
+3) Close the Makefile.
+4) Open the terminal and change directory so that pwd contains all source files and Makefile
+5) execute the following command
+    $ make prob
+
+Instructions to run relevance based language modeling
+-----------------------------------------------------
+
+1) Open the Makefile. Change path to queries, top100 docs and training dataset in line-4.
+2) Last argument represents unigram. bigrams are not implemented.
+3) Close the Makefile.
+4) Open the terminal and change directory so that pwd contains all source files and Makefile
+5) execute the following command
+    $ make lang
